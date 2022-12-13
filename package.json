@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "workspaces": [
+    "shared",
+    "app",
+    "frontend",
+    "firebase"
+  ]
+}
