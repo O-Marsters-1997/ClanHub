@@ -2,7 +2,9 @@
   "name": "clanhub-mv",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "lint": "eslint ."
+  },
   "private": true,
   "dependencies": {},
   "devDependencies": {

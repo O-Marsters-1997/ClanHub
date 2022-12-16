@@ -23,5 +23,5 @@
     "watch": true
   },
   "exclude": ["node_modules"],
-  "include": ["./scrc/**/.tsx", "./src/**/*.ts"]
+  "include": ["./**/frontend/*config.js", "./**/*.tsx", "./**/*.ts"]
 }
