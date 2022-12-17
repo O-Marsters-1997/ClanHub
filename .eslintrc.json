@@ -6,12 +6,14 @@
     "node": true
   },
   "extends": [],
+
   "parser": "@typescript-eslint/parser",
-  "overrides": [],
   "parserOptions": {
     "project": "./tsconfig.base.json",
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
+
+  "overrides": [],
   "rules": {}
 }
