@@ -4,6 +4,7 @@
   "license": "MIT",
   "scripts": {
     "lint": "eslint .",
+    "lint:frontend": "cd apps/frontend && yarn lint",
     "prepare": "husky install"
   },
   "private": true,
