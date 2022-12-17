@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "../../.eslintrc.json",
+    "./.eslintrc.project.json",
+    "standard-with-typescript"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "rules": {
+    "jsx-a11y/alt-text": "error",
+    "no-unused-vars": "error"
+  }
+}

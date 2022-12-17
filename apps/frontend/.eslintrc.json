@@ -2,7 +2,7 @@
   "extends": ["next/core-web-vitals", "../../.eslintrc.json", "next"],
   "parserOptions": {
     "project": "tsconfig.json",
-    "tsconfigRootDir": "." // <-- this did the trick for me
+    "tsconfigRootDir": "."
   },
   "rules": {
     "jsx-a11y/alt-text": "error",

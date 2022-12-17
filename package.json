@@ -5,6 +5,8 @@
   "scripts": {
     "lint": "eslint .",
     "lint:frontend": "cd apps/frontend && yarn lint --fix && git add -A",
+    "lint:shared": "cd apps/shared && yarn lint --fix && git add -A",
+    "lint:firebase": "cd apps/firebase && yarn lint --fix && git add -A",
     "prepare": "husky install"
   },
   "private": true,
