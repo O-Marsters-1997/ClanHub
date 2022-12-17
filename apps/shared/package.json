@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "@typescript-eslint/parser": "^5.46.1"
+    "@typescript-eslint/parser": "^5.46.1",
+    "husky": "^8.0.2"
   }
 }
