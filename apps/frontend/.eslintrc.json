@@ -1,11 +1,15 @@
 {
-  "extends": ["next/core-web-vitals", "../../.eslintrc.json", "next"],
+  "extends": [
+    "next/core-web-vitals",
+    "../../.eslintrc.json",
+    "standard-with-typescript",
+    "next"
+  ],
   "parserOptions": {
     "project": "tsconfig.json",
     "tsconfigRootDir": "."
   },
   "rules": {
-    "jsx-a11y/alt-text": "error",
-    "no-unused-vars": "error"
+    "@typescript-eslint/explicit-function-return-type": "off"
   }
 }

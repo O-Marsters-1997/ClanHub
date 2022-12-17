@@ -1,0 +1,7 @@
+{
+  "extends": [
+    "standard-with-typescript",
+    "../../.eslintrc.json",
+    "../shared/.eslintrc.project.json"
+  ]
+}
