@@ -4,6 +4,13 @@
     "project": "tsconfig.json",
     "tsconfigRootDir": "."
   },
+  "plugins": [
+    "react",
+    "@typescript-eslint",
+    "testing-library",
+    "jest-dom",
+    "import"
+  ],
   "rules": {
     "@typescript-eslint/explicit-function-return-type": "off"
   }
