@@ -63,7 +63,9 @@ export default function Home() {
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
-          ></a>
+          >
+            click me
+          </a>
         </div>
       </main>
     </>

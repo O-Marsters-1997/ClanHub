@@ -6,8 +6,8 @@ import type { AppProps } from "next/app";
 //   return <Component {...pageProps} />
 // }
 // testing things
-const App = ({ Component, pageProps }: AppProps) => {
+function App({ Component, pageProps }: AppProps) {
   return <Component {...pageProps} />;
-};
+}
 
 export default App;
