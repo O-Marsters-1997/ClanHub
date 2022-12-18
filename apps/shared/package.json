@@ -16,14 +16,5 @@
     "@typescript-eslint/parser": "^5.46.1",
     "eslint-config-standard-with-typescript": "^24.0.0",
     "husky": "^8.0.2"
-  },
-  "lint-staged": {
-    "src/**/*.+(ts|tsx)": [
-      "eslint --fix"
-    ],
-    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
-      "prettier --write"
-    ],
-    "*.js": "eslint --cache --fix"
   }
 }
