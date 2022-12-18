@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-yarn lint:shared
-yarn lint:frontend
-yarn lint:firebase
+yarn lint:shared:pre-commit
+yarn lint:frontend:pre-commit
+yarn lint:firebase:pre-commit
