@@ -24,5 +24,14 @@
   },
   "workspaces": [
     "apps/*"
-  ]
+  ],
+  "lint-staged": {
+    "src/**/*.+(ts|tsx)": [
+      "eslint --fix"
+    ],
+    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+      "prettier --write"
+    ],
+    "*.js": "eslint --cache --fix"
+  }
 }
