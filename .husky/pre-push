@@ -4,3 +4,4 @@
 yarn lint:shared
 yarn lint:frontend
 yarn lint:firebase
+yarn test:frontend

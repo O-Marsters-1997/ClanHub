@@ -11,6 +11,7 @@
     "lint:frontend:pre-commit": "cd apps/frontend && yarn lint-staged && git add -A",
     "lint:shared:pre-commit": "cd apps/shared && yarn lint-staged && git add -A",
     "lint:firebase:pre-commit": "cd apps/firebase && yarn lint-staged && git add -A",
+    "test:frontend": "cd apps/frontend && yarn test:pre-push",
     "prepare": "husky install"
   },
   "private": true,
