@@ -1,5 +1,11 @@
 {
-  "extends": ["next/core-web-vitals", "../../.eslintrc.json", "next"],
+  "extends": [
+    "next/core-web-vitals",
+    "../../.eslintrc.json",
+    "plugin:import/recommended",
+    "plugin:import/typescript",
+    "next"
+  ],
   "parserOptions": {
     "project": "tsconfig.json",
     "tsconfigRootDir": "."
