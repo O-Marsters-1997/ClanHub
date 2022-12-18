@@ -8,7 +8,6 @@
   "extends": [
     "standard-with-typescript",
     "airbnb",
-    "airbnb-typescript/base",
     "plugin:prettier/recommended",
     "prettier"
   ],
@@ -23,7 +22,7 @@
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "plugins": ["import", "prettier"],
+  "plugins": ["@typescript-eslint", "prettier"],
   "overrides": [],
   "rules": {
     "no-unused-vars": "error",
