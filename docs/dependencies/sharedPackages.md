@@ -9,3 +9,4 @@
 ## Versioning
 
 - For any dependencies that exist in multiple workspaces, versioning is kept consistent by the "shared" repo being added to the dependencies of other projects.
+- There is some stuff to with pathd that I want to add in here as well at a later date but not for now.
